@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .logo {
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.content {
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    background-image: url(../images/backgroundPB.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    border: 4px solid #f6f8fc;
+    border-color: #1182DE;
+    border-radius: 10rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
