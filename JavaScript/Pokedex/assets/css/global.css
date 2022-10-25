@@ -16,6 +16,15 @@ body {
     height: auto;
     margin: 1rem;
 }
+.a {
+    text-decoration: none;
+    text-underline-offset: none;
+}
+.buttonDiv {
+    text-decoration: none;
+    text-underline-offset: none;
+    
+}
 
 .content {
     width: 100vw;
